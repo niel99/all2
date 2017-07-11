@@ -1,0 +1,99 @@
+java is architecture-neutral
+-is portable
+-is slow
+-has serious vulnerability
+-completely oop so codes for simple tasks are much bigger
+Procedural programming in C
+POP Importance not given to data only but as well as to
+functions
+data can move freely from function to function
+in multi function programs there are use of global variables
+whose value can be changed to cause the functions to not work
+properly
+less secure as no data encapsulation
+objects can be exclusive of a single class by using keywords
+i.e only a single object can be created from a single class
+array is a datatype? not a primitive one
+class is a derived data type
+square root without sqrt?
+class is an abstract data type as it hides the func it contains
+a static method belongs to a class not object
+when we use static on a method it will belon to 
+only the class that is it can be called only through the
+class and not by the object
+java overflow when typecasted to byte
+explicit typecasting
+prime loop till sqrt of number ?
+linear flow of control ofjava and languages that don't have linear
+flow of control?
+algos are pseudocode and algos are all following a linear
+flow of control. every language needs algos thus they
+follow linear flow of control
+For input:
+import java.util.Scanner
+Scanner ob= new Scanner(System.in)
+int a=ob.nextInt();(for string use Line instead Int likewise)
+equals method is used for comparing two strings.
+if(name1.equals(name2)//compares the two strings character by character
+lexicographic ordering- ordering when uppercase characters come before
+lowercase also long strings come before short strings like book comes before bookcase
+for this we use compareTo
+i.e s1.compareTo(s2)
+find voting eligibility of a person in india
+check whether user input strings are equal or not
+calculator menu driven calculator to perform +,-,*,\,%
+simultanous equaton of two variables without matrix
+
+cyclic nature of range i.e as range of byte is 127 to -128 so when casted into an integer >127
+it overflows causing the value to be stored within a different number i.e here
+130= 2+128(in int)
+130=2-128(in byte)
+next() ends the string with a " " whereas nextLine() doesn't end with a " " rather needs
+newline(enter) to end the string
+
+never use infinite loops
+
+wap(menu driven) to accept a number in decimal format
+take inputs from the user
+1 convert to binary
+	a bitwise or(take another binary number)
+	b bitwise not
+2convert to octal
+3 convert to hexa decimal
+
+for(int i:arr){
+System.out.println(i);
+}
+printing array when length is unknown
+for(;) is known as for each and used for iterating through collections
+
+print the pattern
+*
+ * *
+*   *
+ * *
+  *
+*
+  * *
+ *   *
+*     *
+ *   *
+  * *
+   *
+parameterized constructor: constructor passed within constructor
+to assign some value while creating an object
+constructors like methoda support overloading
+
+taylor series of cos(x)=1-x^2/2!+x^4/4!-x^6/6!
+using recursion
+try catch?
+access denied by java compiler is illegalaccess exception
+unchecked exception example= array out of bounds
+exception causing block in try and the remedy when the exception is found is within catch 
+while exception object is its argument
+runtime exception should never be before arithmaticexception/oranyotherexception
+finally block is used to end the try-catch ladder
+throws is used to ignore an exception
+throw is used to handle exceptions which can't be ignored
+throw exception while converting string into into integer
+array list to array

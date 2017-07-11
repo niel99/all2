@@ -1,0 +1,30 @@
+java is robust?
+doGet() and doPost() are used in plave of service() in httpservlet
+form method="get" sends links thorough url
+form method="post" sends links hidden
+get method is faster than post method
+action redirects us to the new page/java file as specified
+if srvlet uses doget then use get in form else use dopost
+for post method in index
+getParameter is used to recieve the data from index
+madnatory data entry use required in input
+type=email for validation of email using html
+request dispatcher- forward method will keep the previous credentials and destroy all other servlets
+include method restores all the servlet datas
+senRedirect(filename) is used to redirect to other pages
+without taking the servlet objects with it
+scheme=http/https/ftp
+host=www.google.co.in
+path=host/anything
+oracledb pass= indranil
+Servlet context class is to set some values to some
+privillages
+its values migrates even if we change the servlet
+ServletConfig is used to transmit config of the server
+HttpSession class
+sendRedirect only sends to Get servlets
+Use Database in Java:
+1.Establish a connection(DriverManager.getConnection(),Class.ForName())
+2.Create Statements(PreparedSttements class)
+3.ExecuteQuery and ExecuteUpdate for executing SQL sttements
+4.to get results we use ResultSent class

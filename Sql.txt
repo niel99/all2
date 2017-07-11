@@ -1,0 +1,16 @@
+create table 'table_name'(
+	'column_name' 'column_type' 'key name',
+	.
+	.
+	.
+	.
+	'column_name' 'column_type'
+	);
+insert into 'table_name'
+values('value1','value2',.....);(if not string then we dont need '' enclose)
+select *(all) from 'table_name';(to display id)
+drop table 'table_name';(to remove the table)
+insert into 'table name'
+values(&column_name,&column_name2,&column_name3);(for taking runtime input)
+commit;(to permenantly store data)
+C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib (the directory which contains JAR files to be linked with netbeans by right clicking and adding JAR in the library)
